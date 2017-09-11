@@ -1,0 +1,11 @@
+{
+	"build-webpack": {
+		"externals": {
+			"dependencies": [
+				{ "from": "src/configDojo1.js", "inject": true },
+				{ "name": "dojo", "from": "node_modules/dojo", "inject": [ "dojo.js" ] },
+				{ "name": "dijit", "from": "node_modules/dijit", "inject": [ "themes/dijit.css", "themes/claro/claro.css" ] }
+			]
+		}
+	}
+}
