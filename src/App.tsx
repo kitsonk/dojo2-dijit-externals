@@ -39,7 +39,7 @@ declare global {
 	}
 }
 
-export default class App extends WidgetBase<WidgetProperties> {
+export default class App extends WidgetBase {
 	protected render() {
 		return [
 			<Menu id="submenu1" contextMenuForWindow={true} style="display:none;">
