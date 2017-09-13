@@ -5,9 +5,10 @@
     "@dojo/core": "beta2",
     "@dojo/has": "beta2",
     "@dojo/i18n": "beta2",
+    "@dojo/interop": "file:../interop/dist/dojo-interop-2.0.0-alpha.1.tgz",
     "@dojo/routing": "beta2",
     "@dojo/shim": "beta2",
-    "@dojo/widget-core": "file:../widget-core/dist/dojo-widget-core-2.0.0-beta2.12.tgz",
+    "@dojo/widget-core": "beta2",
     "dijit": "^1.12.2",
     "dojo": "^1.12.2"
   },
@@ -25,6 +26,6 @@
     "dojo-typings": "file:../typings/dojo-typings-1.11.8-pre.tgz",
     "intern": "~3.4.1",
     "sinon": "^2.0.0",
-    "typescript": "~2.4.1"
+    "typescript": "~2.5.2"
   }
 }
